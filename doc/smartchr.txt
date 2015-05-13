@@ -160,6 +160,10 @@ BUGS						*smartchr-bugs*
 ==============================================================================
 CHANGELOG					*smartchr-changelog*
 
+0.1.2	2016-05-14T16:29:39+09:00		*smartchr-changelog-0.1.2*
+	- Fix |smartchr#loop()| and |smartchr#one_of()| not to delete extra
+          characters when arguments contain multibyte characters.
+
 0.1.1	2010-02-21T19:20:29+09:00		*smartchr-changelog-0.1.1*
 	- Add |smartchr-context| to enable/disable |smartchr-functions| in
 	  specified context.
