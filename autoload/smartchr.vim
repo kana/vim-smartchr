@@ -71,7 +71,7 @@ function! smartchr#_expand(loop_p, args)  "{{{2
 
       if s:cursor_preceded_with_p(literal2)
         return (pumvisible() ? "\<C-e>" : '')
-             \ . repeat("\<BS>", len(literal2))
+             \ . repeat("\<BS>", strchars(literal2))
              \ . literal1
       endif
     endfor
