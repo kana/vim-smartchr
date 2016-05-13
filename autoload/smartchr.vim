@@ -1,5 +1,5 @@
 " smartchr - Insert several candidates with a single key
-" Version: 0.1.1
+" Version: 0.1.2
 " Copyright (C) 2008-2016 Kana Natsuno <http://whileimautomaton.net/>
 " License: MIT license  {{{
 "     Permission is hereby granted, free of charge, to any person obtaining
